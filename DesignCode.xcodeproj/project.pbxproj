@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5207B80F23CDC84B00779227 /* HomeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5207B80E23CDC84B00779227 /* HomeList.swift */; };
+		5207B81323CED8C500779227 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5207B81223CED8C500779227 /* BlurView.swift */; };
+		52BC54D023CEE0D700613748 /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BC54CF23CEE0D700613748 /* UpdateList.swift */; };
+		52BC54D223D0019500613748 /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BC54D123D0019500613748 /* UpdateDetail.swift */; };
+		52BC54D423D003BA00613748 /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BC54D323D003BA00613748 /* UpdateStore.swift */; };
+		52BC54D623D0555D00613748 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BC54D523D0555D00613748 /* TabBar.swift */; };
 		52E4DDE123C6FF2C00E4F6FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E4DDE023C6FF2C00E4F6FB /* AppDelegate.swift */; };
 		52E4DDE323C6FF2C00E4F6FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E4DDE223C6FF2C00E4F6FB /* SceneDelegate.swift */; };
 		52E4DDE523C6FF2C00E4F6FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E4DDE423C6FF2C00E4F6FB /* ContentView.swift */; };
 		52E4DDE723C6FF3000E4F6FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E4DDE623C6FF3000E4F6FB /* Assets.xcassets */; };
 		52E4DDEA23C6FF3000E4F6FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E4DDE923C6FF3000E4F6FB /* Preview Assets.xcassets */; };
 		52E4DDED23C6FF3000E4F6FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E4DDEB23C6FF3000E4F6FB /* LaunchScreen.storyboard */; };
+		52E4DDF523CD644D00E4F6FB /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E4DDF423CD644D00E4F6FB /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5207B80E23CDC84B00779227 /* HomeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeList.swift; sourceTree = "<group>"; };
+		5207B81223CED8C500779227 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		52BC54CF23CEE0D700613748 /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
+		52BC54D123D0019500613748 /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
+		52BC54D323D003BA00613748 /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
+		52BC54D523D0555D00613748 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		52E4DDDD23C6FF2C00E4F6FB /* DesignCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E4DDE023C6FF2C00E4F6FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52E4DDE223C6FF2C00E4F6FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +37,7 @@
 		52E4DDE923C6FF3000E4F6FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		52E4DDEC23C6FF3000E4F6FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52E4DDEE23C6FF3000E4F6FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52E4DDF423CD644D00E4F6FB /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +54,7 @@
 		52E4DDD423C6FF2C00E4F6FB = {
 			isa = PBXGroup;
 			children = (
+				5207B81223CED8C500779227 /* BlurView.swift */,
 				52E4DDDF23C6FF2C00E4F6FB /* DesignCode */,
 				52E4DDDE23C6FF2C00E4F6FB /* Products */,
 			);
@@ -58,7 +73,13 @@
 			children = (
 				52E4DDE023C6FF2C00E4F6FB /* AppDelegate.swift */,
 				52E4DDE223C6FF2C00E4F6FB /* SceneDelegate.swift */,
+				52BC54D523D0555D00613748 /* TabBar.swift */,
 				52E4DDE423C6FF2C00E4F6FB /* ContentView.swift */,
+				52E4DDF423CD644D00E4F6FB /* Home.swift */,
+				52BC54CF23CEE0D700613748 /* UpdateList.swift */,
+				52BC54D123D0019500613748 /* UpdateDetail.swift */,
+				52BC54D323D003BA00613748 /* UpdateStore.swift */,
+				5207B80E23CDC84B00779227 /* HomeList.swift */,
 				52E4DDE623C6FF3000E4F6FB /* Assets.xcassets */,
 				52E4DDEB23C6FF3000E4F6FB /* LaunchScreen.storyboard */,
 				52E4DDEE23C6FF3000E4F6FB /* Info.plist */,
@@ -147,8 +168,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				52E4DDE123C6FF2C00E4F6FB /* AppDelegate.swift in Sources */,
+				52BC54D423D003BA00613748 /* UpdateStore.swift in Sources */,
+				52BC54D023CEE0D700613748 /* UpdateList.swift in Sources */,
+				5207B80F23CDC84B00779227 /* HomeList.swift in Sources */,
+				52BC54D223D0019500613748 /* UpdateDetail.swift in Sources */,
 				52E4DDE323C6FF2C00E4F6FB /* SceneDelegate.swift in Sources */,
+				52E4DDF523CD644D00E4F6FB /* Home.swift in Sources */,
 				52E4DDE523C6FF2C00E4F6FB /* ContentView.swift in Sources */,
+				5207B81323CED8C500779227 /* BlurView.swift in Sources */,
+				52BC54D623D0555D00613748 /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"DesignCode/Preview Content\"";
+				DEVELOPMENT_TEAM = 47PAWXB6W8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DesignCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,6 +334,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"DesignCode/Preview Content\"";
+				DEVELOPMENT_TEAM = 47PAWXB6W8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DesignCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
